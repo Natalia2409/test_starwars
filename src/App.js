@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPagePeople from './components/people/mainPagePeople';
+import MainPagePlanets from './components/planets/mainPagePlanets';
+import Menu from './components/menu';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <h1 className='title'>StarWars</h1>
+        <Menu />
+        <Switch>
+            <Route path='/people' component={MainPagePeople}/>
+            <Route path='/planets' component={MainPagePlanets}/>
+        </Switch>
+      </Router>
     </div>
   );
 }

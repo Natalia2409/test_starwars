@@ -1,5 +1,55 @@
 .App {
   text-align: center;
+  color: white;
+  font-family: 'starwars';
+}
+
+.title {
+  font-size: 50px;
+}
+
+.person {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+  height: 250px;
+  color: white;
+  border: 1px solid white;
+  margin: 20px;
+}
+
+.card h1 {
+  color: #f59733
+}
+
+.card h2 {
+  color: #87817b
+}
+
+.card p {
+  color: #f50c20
+}
+
+.nav {
+  color: white
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: white
+}
+
+.nav li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 24px;
+  color: white
 }
 
 .App-logo {
