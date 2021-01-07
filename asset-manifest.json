@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test_starwars.git/static/css/main.95109d85.chunk.css",
+    "main.js": "/test_starwars.git/static/js/main.1688dce9.chunk.js",
+    "main.js.map": "/test_starwars.git/static/js/main.1688dce9.chunk.js.map",
+    "runtime-main.js": "/test_starwars.git/static/js/runtime-main.168db821.js",
+    "runtime-main.js.map": "/test_starwars.git/static/js/runtime-main.168db821.js.map",
+    "static/js/2.4f678ec8.chunk.js": "/test_starwars.git/static/js/2.4f678ec8.chunk.js",
+    "static/js/2.4f678ec8.chunk.js.map": "/test_starwars.git/static/js/2.4f678ec8.chunk.js.map",
+    "index.html": "/test_starwars.git/index.html",
+    "static/css/main.95109d85.chunk.css.map": "/test_starwars.git/static/css/main.95109d85.chunk.css.map",
+    "static/js/2.4f678ec8.chunk.js.LICENSE.txt": "/test_starwars.git/static/js/2.4f678ec8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/test_starwars.git/static/media/Starwars.4c37e50c.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.168db821.js",
+    "static/js/2.4f678ec8.chunk.js",
+    "static/css/main.95109d85.chunk.css",
+    "static/js/main.1688dce9.chunk.js"
+  ]
+}
